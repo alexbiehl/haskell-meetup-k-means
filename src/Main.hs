@@ -2,10 +2,8 @@ module Main where
 
 import Data.Map (Map)
 import qualified Data.Map as Map
-import Data.List (minimumBy, sort, transpose)
+import Data.List (minimumBy)
 import Data.Ord (comparing)
-
-import Debug.Trace
 
 -- A `Point` is a just a `List` of `Double` entries (a Euclidean vector):
 type Point = [Double]
